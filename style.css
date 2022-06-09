@@ -32,3 +32,29 @@
    color: #86878B;
    font-weight: 400;
 }
+
+.about {
+   display: flex;
+   justify-content: space-between;
+}
+
+.about__item {
+   width: 30%;
+}
+
+.about__text {
+   color: black;
+   font-weight: 100;
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.h3 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   align-items: center;
+   text-align: center;
+   color: #000000;
+}
