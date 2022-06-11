@@ -1,5 +1,9 @@
 .section {
    padding: 80px;
+   justify-content: center;
+   Width: 1170px;
+   Height: 665px;
+   padding: 40px;
 }
 
 .section__header {
@@ -39,21 +43,28 @@
 }
 
 .about__item {
-   width: 30%;
+   width: 33.3%;
+   justify-content: space-around;
+
 }
 
 .about__text {
    color: black;
-   font-weight: 100;
+   weight: 370;
+   height: 105px;
    font-size: 12px;
    display: flex;
-   align-items: center;
+   justify-content: center;
    text-align: center;
+   word-wrap: normal;
 }
 
-.h3 {
+.h4 {
    font-family: 'Open Sans';
-   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   display: flex;
    align-items: center;
    text-align: center;
    color: #000000;

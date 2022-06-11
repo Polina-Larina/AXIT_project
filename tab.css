@@ -1,0 +1,66 @@
+.tab {
+	Width: 1170px;
+	Height: 500px;
+	Top: 1302px;
+	Left: 170px;
+	padding: 0px;
+}
+
+.box {
+	box-sizing: content-box;
+	position: absolute;
+	width: 1170px;
+	height: 500px;
+	border: 1px solid #C6CBCD;
+	flex-direction: column;
+	display: inline-block;
+
+
+}
+
+.information {
+	justify-content: flex-start;
+	padding-left: 100px;
+	padding-right: 30px;
+	Width: 50%;
+	Height: 210px;
+	align-self: left;
+
+}
+
+.photo {
+	Width: 40%;
+	align-items: right;
+	justify-items: end;
+	position: right;
+
+}
+
+.h3 {
+	Width: 570px;
+	Height: 124px;
+	Font: 'open sans';
+	Weight: 700;
+	Size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-bottom: 27px;
+}
+
+.p {
+	font-family: 'Raleway';
+	font-style: normal;
+	weight: 570px;
+	height: 210px;
+	font-size: 18px;
+	align-items: center;
+	color: #000000;
+}
+
+.button {
+	Width: 270px;
+	Height: 58px;
+	align-items: flex-start;
+
+}
