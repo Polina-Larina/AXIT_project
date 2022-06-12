@@ -33,7 +33,14 @@
 
 .list {
 	display: inline-block;
+	width: 370px;
 	font: Raleway;
 	font-size: 18px;
-	Width: 200px;
+	margin-top: 30px;
+}
+
+.list:hover {
+	webkit-transform: scale(1.2);
+	ms-transform: scale(1.2);
+	transform: scale(1.2);
 }
