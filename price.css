@@ -1,0 +1,42 @@
+.about_price {
+	text-align: center;
+	width: 1508px;
+	height: 900px;
+	left: 2px;
+	background: #F5F5F5;
+	padding-top: 50px;
+}
+
+.option {
+	font-family: Raleway;
+	font-size: 36px;
+	color: black;
+	font-weight: 400;
+	justify-content: center;
+}
+
+.hr {
+	display: block;
+	width: 170px;
+	height: 1px;
+	background-color: #EC7979;
+	margin: 60px auto 0;
+}
+
+.lorem {
+	font-family: Raleway;
+	font-size: 18px;
+	color: #86878B;
+	font-weight: 400;
+	margin-top: 40px;
+}
+
+.rates {}
+
+.list {
+	display: inline-block;
+	float: left;
+	font: Raleway;
+	font-size: 18px;
+	Width: 200px;
+}

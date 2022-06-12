@@ -9,7 +9,7 @@
 .box {
 	box-sizing: content-box;
 	position: absolute;
-	width: 1170px;
+	width: 1508px;
 	height: 500px;
 	border: 1px solid #C6CBCD;
 	flex-direction: column;
@@ -37,30 +37,31 @@
 }
 
 .h3 {
-	Width: 570px;
-	Height: 124px;
 	Font: 'open sans';
-	Weight: 700;
 	Size: 30px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-right: 30px;
+	padding-top: 400px;
+	padding-bottom: 376px;
+	padding-right: 500px;
+	padding-left: 100px;
 	margin-bottom: 27px;
 }
 
 .p {
 	font-family: 'Raleway';
 	font-style: normal;
-	weight: 570px;
 	height: 210px;
 	font-size: 18px;
 	align-items: center;
 	color: #000000;
+	padding-top: 191px;
+	padding-bottom: 139px;
+	padding-right: 500px;
+	padding-left: 100px;
+	margin-bottom: 27px;
 }
 
 .button {
 	Width: 270px;
 	Height: 58px;
 	align-items: flex-start;
-
 }
