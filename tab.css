@@ -1,67 +1,48 @@
 .tab {
 	Width: 1170px;
-	Height: 500px;
-	Top: 1302px;
-	Left: 170px;
-	padding: 0px;
+	Height: 501px;
+	box-sizing: border-box;
+	display: inline-flex;
+	border: 1px solid #C6CBCD;
+	flex-direction: row;
+
+
 }
 
-.box {
-	box-sizing: content-box;
-	position: absolute;
-	width: 1508px;
-	height: 500px;
-	border: 1px solid #C6CBCD;
+.left__column {
+	justify-content: flex-start;
 	flex-direction: column;
-	display: inline-block;
-
+	padding-left: 100px;
+	padding-right: 30px;
 
 }
 
 .information {
-	justify-content: flex-start;
-	padding-left: 100px;
-	padding-right: 30px;
-	Width: 50%;
-	Height: 210px;
-	align-self: left;
-
-}
-
-.photo {
-	Width: 40%;
-	align-items: right;
-	justify-items: end;
-	position: right;
-
-}
-
-.h3 {
-	Font: 'open sans';
-	Size: 30px;
-	padding-top: 400px;
-	padding-bottom: 376px;
-	padding-right: 500px;
-	padding-left: 100px;
-	margin-bottom: 27px;
-}
-
-.p {
 	font-family: 'Raleway';
 	font-style: normal;
+	font-weight: 400;
 	height: 210px;
 	font-size: 18px;
 	align-items: center;
 	color: #000000;
-	padding-top: 191px;
-	padding-bottom: 139px;
-	padding-right: 500px;
-	padding-left: 100px;
-	margin-bottom: 27px;
+
+}
+
+
+.h3 {
+	Font: 'Open sans';
+	Size: 30px;
+	font-weight: 700;
+
 }
 
 .button {
 	Width: 270px;
 	Height: 58px;
-	align-items: flex-start;
+
+}
+
+.right__column {
+	justify-content: flex-end;
+	align-self: right;
 }
