@@ -1,46 +1,121 @@
 .about_price {
-	text-align: center;
-	width: 1508px;
-	height: 900px;
-	left: 2px;
-	background: #F5F5F5;
-	padding-top: 50px;
+   margin-top: 60px;
+   text-align: center;
+   justify-content: center;
+   width: 1508px;
+   height: 900px;
+   left: 2px;
+   background: #F5F5F5;
+   padding-top: 50px;
+
+
+
 }
 
 .option {
-	font-family: Raleway;
-	font-size: 36px;
-	color: black;
-	font-weight: 400;
-	justify-content: center;
+   font-family: Raleway;
+   font-size: 36px;
+   color: black;
+   font-weight: 400;
+   justify-content: center;
 }
 
 .hr {
-	display: block;
-	width: 170px;
-	height: 1px;
-	background-color: #EC7979;
-	margin: 60px auto 0;
+   display: block;
+   width: 170px;
+   height: 1px;
+   background-color: #EC7979;
+   margin: 60px auto 0;
 }
 
 .lorem {
-	font-family: Raleway;
-	font-size: 18px;
-	color: #86878B;
-	font-weight: 400;
-	margin-top: 40px;
+   font-family: Raleway;
+   font-size: 18px;
+   color: #86878B;
+   font-weight: 400;
+   margin-top: 25px;
+}
+
+.rates {
+   margin-top: 70px;
+   display: inline-flex;
+   flex-direction: row;
+   box-sizing: border-box;
+   justify-content: space-between;
+
+}
+
+.style {
+   font: "Raleway";
+   width: 370px;
+   margin: 30px;
+   padding: 0;
+   border: 0;
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: column;
+   text-align: center;
+   padding-bottom: 60px;
+
+}
+
+.title {
+   font-size: 24px;
+   font-family: "Raleway";
+   font-weight: 700;
+   color: white;
+   background-color: #333333;
+   margin: 1px;
+   padding: 1px;
+   height: 60px;
+
+}
+
+.title1 {
+   font-size: 36px;
+   font-family: "Raleway";
+   font-weight: 700;
+   color: white;
+   background-color: #333333;
+   margin: 1px;
+   padding: 1px;
+   height: 100px;
+   text-align: center;
+   justify-content: center;
+
+}
+
+.title2 {
+   font-size: 18px;
+   font-family: "Raleway";
+   font-weight: 700;
+   color: white;
+   background-color: #333333;
+   margin: 1px;
+   padding: 1px;
+   height: 50px;
 }
 
 .list {
-	display: inline-block;
-	width: 370px;
-	font: Raleway;
-	font-size: 18px;
-	margin-top: 30px;
+   list-style-type: none;
+   font: "Raleway";
+   font-size: 18px;
+   color: #86878B;
+   font-weight: 400;
+   background-color: white;
+   justify-self: center;
+   text-align: center;
+   margin: 1px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+   text-align: center;
+   height: 40px;
+
 }
 
-.list:hover {
-	webkit-transform: scale(1.2);
-	ms-transform: scale(1.2);
-	transform: scale(1.2);
+.style:hover {
+   webkit-transform: scale(1.2);
+   ms-transform: scale(1.2);
+   transform: scale(1.2);
+   box-shadow: #86878B 0 0 5px 2px;
 }
