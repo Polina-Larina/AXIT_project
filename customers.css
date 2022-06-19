@@ -1,0 +1,146 @@
+.customers {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+.review {
+	padding: 105px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.review__header {
+	width: 100%;
+	max-width: 1170px;
+	height: 150px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+
+.review__title {
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 400;
+	color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 50PX;
+}
+
+.review__text {
+	font-family: Raleway;
+	font-size: 18px;
+	color: #86878B;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.managers {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+.customer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+	justify-content: space-around;
+
+}
+
+.customer1 {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+
+}
+
+.customer2 {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+
+}
+
+.rectangle {
+	line-height: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 60px;
+
+}
+
+.lay2 {
+	margin-left: 10px;
+}
+
+.about__axit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "Raleway" sans-serif;
+	font-weight: 400;
+	width: 370px;
+	height: 105px;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	color: #86878B;
+
+}
+
+.human {
+	display: flex;
+	flex-direction: row;
+}
+
+.photo {
+	width: 70px;
+	height: 70px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.name {
+	width: 269px;
+	height: 54px;
+	font-family: "Open Sans" sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 21px;
+	color: #000000;
+	display: flex;
+	justify-content: start;
+}
+
+.job {
+	width: 270px;
+	height: 21px;
+	font-family: "Raleway" sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+	display: flex;
+	justify-content: start;
+}

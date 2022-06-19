@@ -28,8 +28,6 @@
 .container__body {
    padding: 105px 0;
    display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
    flex-direction: column;
 }
 
@@ -48,7 +46,6 @@
    color: black;
    display: flex;
    justify-content: center;
-   -webkit-box-align: center;
    flex-direction: column;
 }
 
