@@ -1,3 +1,4 @@
+/*не возвращается на первую вкладку обратно*/
 .tab__body {
 	flex-direction: row;
 	text-align: center;
@@ -5,13 +6,34 @@
 
 }
 
-.head__tab:hover {
-	border: 1px solid #C6CBCD;
-	border-radius: 4px;
-	border-bottom: none;
+.tab__body>input[type="radio"] {
+	display: none;
 }
 
-.head__tab {
+.tab__body>div {
+	display: none;
+	padding: 10px 15px;
+	font-size: 16px;
+}
+
+#tab-btn-1:checked~#tab1,
+#tab-btn-2:checked~#tab2,
+#tab-btn-3:checked~#tab3 {
+	display: block;
+}
+
+.tab__body>label {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	padding: 2px 8px;
+	font-size: 16px;
+	line-height: 1.5;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+	cursor: pointer;
+	position: relative;
+	top: 1px;
 	color: #333333;
 	width: 200px;
 	font-family: "Open sans";
@@ -20,7 +42,16 @@
 	float: left;
 	height: 44px;
 	margin: 0 8px -1px 0;
+}
 
+
+.tab__body>input[type="radio"]:checked+label {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+	border: 1px solid #e0e0e0;
+	border-bottom: none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 .tab {

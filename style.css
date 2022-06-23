@@ -87,7 +87,8 @@
 
 
 .about__text {
-   font-family: "Raleway" sans-serif;
+   font-family: "Raleway";
+   word-wrap: normal;
    color: black;
    height: 105px;
    font-size: 18px;
