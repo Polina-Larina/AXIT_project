@@ -1,19 +1,64 @@
+/*не произошло затемнение картинки*/
 .stylish {
-	max-width: 100%;
-	margin-top: 50px;
-	display: flex;
-	box-sizing: border-box;
-}
-
-.view {
-	width: 100%;
-	display: flex;
-
-}
-
-.photo3 {
+	display: block;
 	position: relative;
-	width: 1510px;
+	min-width: 100%;
 	height: 442px;
+	margin-top: 70px;
+	right: 0;
+	left: 0;
+	background-image: url(img/image.png);
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.stylish__title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -270%);
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 400;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.stylish__text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Raleway;
+	font-size: 18px;
+	color: white;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.hr1 {
+	display: block;
+	width: 170px;
+	height: 1px;
+	background-color: white;
+	margin: 170px auto 0;
+
+}
+
+.stylish__btn {
+	display: flex;
+	justify-content: center;
+	Width: 370px;
+	Height: 58px;
+	border: 2px solid white;
+	font-family: "Open Sans";
+	color: white;
+	font-Weight: 600;
+	font-size: 18px;
+	align-items: center;
+	text-decoration: none;
+	margin-left: 40%;
 
 }
