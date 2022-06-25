@@ -40,7 +40,7 @@
 }
 
 .section__title {
-   font-family: Raleway;
+   font-family: "Raleway";
    font-size: 36px;
    font-weight: 400;
    color: black;
@@ -58,7 +58,7 @@
 }
 
 .section__text {
-   font-family: Raleway;
+   font-family: "Raleway";
    font-size: 18px;
    color: #86878B;
    font-weight: 400;
