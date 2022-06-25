@@ -1,4 +1,6 @@
 .header__web {
+	display: flex;
+	flex-direction: row;
 	width: 100%;
 	height: 75px;
 	background-color: black;
@@ -7,14 +9,44 @@
 	z-index: 10;
 }
 
+.header:before {
+	content: "";
+	position: absolute;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+}
+
 .logo {
 	margin-left: 8%;
 }
 
-.menu {
+/*не уходит вправо*/
+.navi {
+	display: inline;
 	list-style-type: none;
+	justify-content: end;
 }
 
-#a text {
+.menu {
+	list-style-type: none;
+
+}
+
+.menu li {
+	display: inline;
+	position: relative;
+	margin: 10px;
+}
+
+.menu li a {
 	text-decoration: none;
+	color: #FFFFFF;
+	font-family: "open sans";
+	weight: 600;
+	size: 14px;
+}
+
+.menu li a:hover {
+	color: #EC7979;
 }
