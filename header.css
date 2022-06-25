@@ -1,0 +1,20 @@
+.header__web {
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.logo {
+	margin-left: 8%;
+}
+
+.menu {
+	list-style-type: none;
+}
+
+#a text {
+	text-decoration: none;
+}

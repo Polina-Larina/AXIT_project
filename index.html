@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="stylish.css">
 	<link rel="stylesheet" href="contact.css">
 	<link rel="stylesheet" href="footer.css">
-
+	<link rel="stylesheet" href="header.css">
 
 	<link
 		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&family=Raleway:wght@100;300&display=swap"
@@ -25,6 +25,28 @@
 
 	<body>
 		<div class="wrapper">
+			<div class="header__web">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<div class="nav">
+					<ul class="menu">
+						<li><a href="#fs">Features</a>
+						</li>
+						<li><a href="#ab">About</a>
+						</li>
+						<li><a href="#pr">Pricing</a>
+						</li>
+						<li><a href="#hum">Reviews</a>
+						</li>
+						<li><a href="#cont">Contacts</a>
+						</li>
+					</ul>
+
+				</div>
+
+
+			</div>
 			<div class="tab__body">
 				<input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
 				<label for="tab-btn-1">TAB1</label>
@@ -34,7 +56,7 @@
 				<label for="tab-btn-3">TAB3</label>
 			</div>
 
-			<div class="tab">
+			<div class="tab" id="fs">
 				<div class="left__column">
 					<div class="h3">
 						<p>Tabs with soft transitioning effect.</p>
@@ -65,7 +87,7 @@
 			</div>
 
 
-			<section class="section">
+			<section class="section" id="ab">
 				<div class="container">
 					<div class="container__body">
 						<div class="section__header">
@@ -122,7 +144,7 @@
 
 
 
-			<div class="about_price">
+			<div class="about_price" id="pr">
 				<h2 class="option">PRICING OPTIONS</h2>
 				<div class="hr"></div>
 				<div class="lorem">
@@ -168,7 +190,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="review">
+			<div class="review" id="hum">
 				<div class="review__header">
 					<h2 class="review__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
 					<div class="hr"></div>
@@ -278,7 +300,7 @@
 
 			</div>
 
-			<div class="contact">
+			<div class="contact" id="cont">
 				<div class="contact__body">
 					<div class="contact__header">
 						<h2 class="contact__title">CONTUCT US</h2>
