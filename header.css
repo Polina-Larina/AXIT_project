@@ -1,5 +1,6 @@
 .header__web {
 	display: flex;
+	justify-content: space-between;
 	flex-direction: row;
 	width: 100%;
 	height: 75px;
@@ -23,27 +24,30 @@
 
 /*не уходит вправо*/
 .navi {
-	display: inline;
+	display: inline-block;
+	vertical-align: top;
 	list-style-type: none;
-	justify-content: end;
+	margin-right: 170px;
+
 }
 
 .menu {
 	list-style-type: none;
+
 
 }
 
 .menu li {
 	display: inline;
 	position: relative;
-	margin: 10px;
+	margin: 30px;
 }
 
 .menu li a {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-family: "open sans";
-	weight: 600;
+	font-weight: 600;
 	size: 14px;
 }
 

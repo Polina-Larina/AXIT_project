@@ -5,5 +5,136 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	display: flex;
+	flex-direction: row;
+}
 
+.overlay__ax {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 1026px;
+	z-index: 1;
+	width: 100%;
+	top: 0;
+	left: 0
+}
+
+.axit__welc {
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+}
+
+.ax__logo {
+	position: absolute;
+	width: 270px;
+	height: 100px;
+	margin-top: 200px;
+	left: 170px;
+	margin-bottom: 70px;
+}
+
+.ax__title {
+	z-index: 3;
+	position: absolute;
+	width: 670px;
+	height: 168px;
+	top: 450px;
+	left: 170px;
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 500;
+	color: white;
+
+}
+
+.ax__hr {
+	position: absolute;
+	width: 170px;
+	height: 1px;
+	background-color: white;
+	margin-top: 600px;
+	left: 170px;
+	z-index: 3;
+}
+
+.ax__text {
+	z-index: 3;
+	position: absolute;
+	width: 270px;
+	height: 42px;
+	margin-top: 650px;
+	left: 170px;
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+}
+
+.ax__down {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	Width: 270px;
+	Height: 58px;
+	border: 2px solid white;
+	font-family: "Open Sans";
+	color: white;
+	font-Weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	left: 170px;
+	margin-top: 750px;
+	z-index: 3;
+	box-sizing: border-box;
+	transition-duration: 0.3s;
+}
+
+.ax__down:hover {
+	background-color: #EC7979;
+	text-decoration: none;
+}
+
+.get__start {
+	display: flex;
+	position: absolute;
+	z-index: 3;
+	width: 470px;
+	height: 450px;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 55%;
+	margin-top: 210px;
+}
+
+.sign__in {
+	width: 369px;
+	height: 90px;
+	font-family: "open sans";
+	font-size: 24px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+}
+
+.sign__in span {
+	color: #EC7979;
+}
+
+.sign-in__btn-req {
+	width: 470px;
+	height: 60px;
+	font-family: "open sans";
+	font-weight: 600;
+	border: none;
+	color: white;
+	background-color: #EC7979;
+	text-decoration: 0.3s;
+}
+
+/*частичное применение*/
+.sign-in__btn-req :hover {
+	background-color: #ec5454;
+	color: rgb(181, 194, 190);
 }

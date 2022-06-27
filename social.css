@@ -8,18 +8,19 @@
 .soc__block {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .soc__container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	left: 170px;
+	margin-left: 170px;
 }
 
 .cont__title {
 	font-family: "Open Sans";
-	weight: 700;
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
 	display: flex;
@@ -37,6 +38,7 @@
 
 .soc__icons {
 	color: #CCCCCC;
-
+	margin-right: 170px;
+	margin-top: 20px;
 
 }
