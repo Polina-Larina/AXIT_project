@@ -138,3 +138,65 @@
 	background-color: #ec5454;
 	color: rgb(181, 194, 190);
 }
+
+#sign {
+	border: none;
+	font-family: "Open Sans";
+}
+
+#sign [required] {
+	width: 571px;
+	box-sizing: border-box;
+	margin: 2px 0 2% 0;
+	padding: 2%;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+#sign [required]:hover {
+	border-color: #EC7979;
+}
+
+#sign [type="submit"] {
+	padding: 2%;
+	border: none;
+	background: #EC7979;
+	color: white;
+}
+
+
+#sign [type="text"] {
+	font-family: "open sans";
+	font-size: 14px;
+	color: #BDBDBD;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+#sign [type="email"] {
+	font-family: "open sans";
+	font-size: 14px;
+	color: #BDBDBD;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+#sign [type="password"] {
+	left: 0;
+	font-family: "open sans";
+	font-size: 14px;
+	color: #BDBDBD;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+#sign [type="submit"]:hover {
+	background: #ec5454;
+	color: #BDBDBD;
+}
+
+#sign text [placeholder="name"] {
+	color: #BDBDBD;
+	font-size: 14px;
+	font-family: "open sans";
+}
