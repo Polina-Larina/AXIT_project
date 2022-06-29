@@ -40,10 +40,12 @@
 .contact__form {
 	display: flex;
 	flex-direction: row;
+	position: relative;
 }
 
 .left {
 	display: flex;
+	position: absolute;
 	flex-direction: column;
 	align-items: flex-start;
 }
@@ -51,10 +53,11 @@
 .right {
 	display: flex;
 	align-items: flex-end;
+	position: absolute;
 }
 
 .contact__btn {
-	position: relative;
+	position: absolute;
 	border: none;
 	Width: 370px;
 	Height: 58px;

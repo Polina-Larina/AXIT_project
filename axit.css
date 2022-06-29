@@ -7,6 +7,7 @@
 	background-position: center center;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .overlay__ax {
@@ -98,13 +99,14 @@
 
 .get__start {
 	display: flex;
+	justify-content: center;
+	left: 50%;
 	position: absolute;
 	z-index: 3;
 	width: 470px;
 	height: 450px;
 	background-color: white;
 	border-radius: 15px;
-	margin-left: 55%;
 	margin-top: 210px;
 }
 
@@ -122,7 +124,9 @@
 	color: #EC7979;
 }
 
+/*удалось поставить снизу только с помощью отступа от верха, уверена, что это неправильно*/
 .sign-in__btn-req {
+	margin-top: 130px;
 	width: 470px;
 	height: 60px;
 	font-family: "open sans";
@@ -133,27 +137,32 @@
 	text-decoration: 0.3s;
 }
 
-/*частичное применение*/
 .sign-in__btn-req :hover {
 	background-color: #ec5454;
 	color: rgb(181, 194, 190);
 }
 
-#sign {
+#inputname,
+#inputemail,
+#inputpassword {
 	border: none;
 	font-family: "Open Sans";
 }
 
-#sign [required] {
-	width: 571px;
+#inputname,
+#inputemail,
+#inputpassword {
+	width: 370px;
 	box-sizing: border-box;
 	margin: 2px 0 2% 0;
 	padding: 2%;
 	border: none;
-	border-bottom: 1px solid #BDBDBD;
+	border-bottom: 3px solid #BDBDBD;
 }
 
-#sign [required]:hover {
+#inputname,
+#inputemail,
+#inputpassword :hover {
 	border-color: #EC7979;
 }
 
@@ -164,8 +173,12 @@
 	color: white;
 }
 
+#sign [type="submit"]:hover {
+	background: #ec5454;
+	color: #BDBDBD;
+}
 
-#sign [type="text"] {
+#inputemail [type="email"] {
 	font-family: "open sans";
 	font-size: 14px;
 	color: #BDBDBD;
@@ -173,15 +186,7 @@
 	margin-top: 25px;
 }
 
-#sign [type="email"] {
-	font-family: "open sans";
-	font-size: 14px;
-	color: #BDBDBD;
-	font-weight: 400;
-	margin-top: 25px;
-}
-
-#sign [type="password"] {
+#inputpassword [type="password"] {
 	left: 0;
 	font-family: "open sans";
 	font-size: 14px;
@@ -190,12 +195,7 @@
 	margin-top: 25px;
 }
 
-#sign [type="submit"]:hover {
-	background: #ec5454;
-	color: #BDBDBD;
-}
-
-#sign text [placeholder="name"] {
+#inputname [placeholder="name"] {
 	color: #BDBDBD;
 	font-size: 14px;
 	font-family: "open sans";
