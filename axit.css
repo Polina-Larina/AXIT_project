@@ -100,7 +100,7 @@
 .get__start {
 	display: flex;
 	justify-content: center;
-	left: 50%;
+	left: 55%;
 	position: absolute;
 	z-index: 3;
 	width: 470px;
